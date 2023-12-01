@@ -20,11 +20,3 @@ END CALCULATE_DRIVER_EARNING;
 /
 
 
--- Test CALCULATE_TOTAL_EARNING function
-DECLARE
-    total_earning_result NUMBER;
-BEGIN
-    total_earning_result := CALCULATE_DRIVER_EARNING(1);
-    DBMS_OUTPUT.PUT_LINE('DRIVER_EARNING for Agent is : ' || total_earning_result);
-END;
-/
