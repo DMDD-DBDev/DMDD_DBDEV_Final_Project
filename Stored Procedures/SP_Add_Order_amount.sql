@@ -14,7 +14,7 @@ BEGIN
     WHERE ORDER_ID = PI_ORDER_ID;
 
     COMMIT;
-
+    DBMS_OUTPUT.PUT_LINE('Order amount updated successfully');
 EXCEPTION
     WHEN INVALID_ORDER_ID THEN
         DBMS_OUTPUT.PUT_LINE('OrderID does not exist');
