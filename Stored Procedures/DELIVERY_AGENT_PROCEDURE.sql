@@ -70,6 +70,23 @@ END ADD_DELIVERY_AGENT;
 
 
 
+BEGIN
+    ADD_DELIVERY_AGENT(
+        PI_FIRST_NAME => 'John',
+        PI_LAST_NAME => 'Doe',
+        PI_PASSWORD => 'SecurePa',
+        PI_EMAIL => 'john.doe@example.com',
+        PI_CONTACT_NO => '1234567890',
+        PI_STREET_ADDRESS => '123 Main St',
+        PI_CITY => 'Cityville',
+        PI_STATE => 'Stateville',
+        PI_ZIP_CODE => '12345'
+    );
+END;
+/
+
+
+
 
 
 
