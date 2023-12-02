@@ -14,4 +14,7 @@
     * _**BUSINESS_REPORTS.sql**_ under KITKY_ADMIN
     * _**USER_CREATION_PACKAGE.sql**_ under KITKY_ADMIN
     * _**USER_CREATION_SCRIPT.sql**_
+    * _**USER_MANAGER_DML.sql**_ under USER_MANAGER
+    * _**ORDER_MANAGER_DML.sql**_ under ORDER_MANAGER
+
 * Login as different users to access respective views
