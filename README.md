@@ -18,4 +18,4 @@
     * _**ORDER_MANAGER_DML.sql**_ under ORDER_MANAGER
     * _**BUSINESS_ANALYST_VIEWS.sql**_ under BUSINESS_ANALYST (To view the views for analysis)
     
-* Login as different users to access respective views
+* Login as different users to execute the respective procedures to insert data and access views.
